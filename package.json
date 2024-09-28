@@ -1,0 +1,19 @@
+{
+  "name": "text",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "gen": "cd dobroshrift && nft-art-maker generate",
+    "checknft": "cd dobroshrift && nft-art-maker check",
+    "update": "cd dobroshrift && nft-art-maker updateImageCID",
+    "preview": "cd dobroshrift && nft-art-maker preview",
+    "packnft": "cd dobroshrift && nft-art-maker pack",
+    "uploadnft": "cd dobroshrift && nft-art-maker upload"
+  },
+  "dependencies": {
+    "canvas": "^2.10.1",
+    "nft-art-maker": "^6.0.0"
+  }
+}
